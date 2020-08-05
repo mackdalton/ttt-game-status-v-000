@@ -48,5 +48,6 @@ def winner(board)
   if won?(board)
     won?(board).each do |token|
       return token
+    end
   end
 end
