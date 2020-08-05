@@ -47,7 +47,7 @@ end
 def winner(board)
   if won?(board)
     won?(board).each do |token|
-      return token
+      return board[token]
     end
   end
 end
