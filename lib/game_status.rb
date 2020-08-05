@@ -44,4 +44,6 @@ def over?(board)
   end
 end
 
-def winner(board)
+def winner(board, token)
+  win?(board)
+end
