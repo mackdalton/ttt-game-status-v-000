@@ -31,7 +31,7 @@ def full?(board)
   board.none? {|moves| moves == " "}
 end
 
-def draw(board)
+def draw?(board)
   if won? == false && full? == true 
     true
   end
