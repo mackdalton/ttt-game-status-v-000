@@ -30,3 +30,9 @@ def won?(board)
 def full?(board)
   board.none? {|moves| moves == " "}
 end
+
+def draw(board)
+  if won? == false && full? == true 
+    true
+  end
+end
